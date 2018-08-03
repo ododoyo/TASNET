@@ -36,7 +36,6 @@ if __name__ == "__main__":
     s1_list = get_file_line(cfg.test_spkr1_list)
     s2_list = get_file_line(cfg.test_spkr2_list)
     snr_list = get_file_line(cfg.test_mixsnr_list)
-    defConf = defaultConfig()
     snr_ans = []
     bss_ans = []
     pesq_ans = []
